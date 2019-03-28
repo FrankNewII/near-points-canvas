@@ -124,11 +124,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function draw() {
-        ctx.fillStyle = '#000000';
+        ctx.fillStyle = '#09270c';
         ctx.fillRect(0, 0, width, height );
 
-        ctx.fillStyle = '#FFF';
-        ctx.strokeStyle = '#535353';
+        ctx.fillStyle = '#166f41';
+        ctx.strokeStyle = '#09621f';
         ctx.lineWidth = .5;
 
 
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         elms.forEach(p => {
-            ctx.fillRect(p[0], p[1], 2, 2);
+            ctx.fillRect(p[0], p[1], 4, 4);
             //pointMove(p);
         });
         window.requestAnimationFrame(draw);
