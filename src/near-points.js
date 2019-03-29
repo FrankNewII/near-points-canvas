@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
         ctx.fillStyle = '#09270c';
         ctx.fillRect(0, 0, width, height );
 
-        ctx.fillStyle = '#166f41';
-        ctx.strokeStyle = '#09621f';
+        ctx.fillStyle = '#13a1b4';
+        ctx.strokeStyle = '#23788d';
         ctx.lineWidth = .5;
 
 
